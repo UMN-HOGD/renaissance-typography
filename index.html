@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+
+		<!-- CSS Files -->
+		<link rel="stylesheet" href="css/reset.css" />
+		<link rel="stylesheet" href="css/style.css" />
+
+		<!-- All Javascript/jQuery Files -->
+		<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+		<script type="text/javascript" src="js/jquery-ui.min.js"></script>
+		<script type="text/javascript" src="js/script.js"></script>
+	
+		<title>GDES 4131: Art Deco & Art Nouveau Images</title>
+	
+	</head>
+
+	<body>
+
+		<div class="container"> <!-- container for the entire page -->
+
+			<p class="title"> <!-- Title of web page -->
+				Art Deco &<br> Art Nouveau <br>Images
+			</p>
+
+			<div class="drag_container">
+				<div class="square drag one"></div> <!-- First artwork to be dragged: make sure file is named 1.jpg -->
+				<div class="square drag two"></div> <!-- Second artwork to be dragged: make sure file is named 2.jpg -->
+				<div class="square drag three"></div> <!-- Third artwork to be dragged: make sure file is named 3.jpg -->
+				<div class="square drag four"></div> <!-- Fourth artwork to be dragged: make sure file is named 4.jpg -->
+				<div class="square drag five"></div> <!-- Fifth artwork to be dragged: make sure file is named 5.jpg -->
+				<div class="square drag six"></div> <!-- Sixth artwork to be dragged: make sure file is named 6.jpg -->
+				<!-- <div class="square drag seven"></div> <!-- Seventh artwork to be dragged: make sure file is named 7.jpg -->
+			</div>
+
+			<div class="drop_container"> <!-- Droppable areas -->
+				<div class="drop"></div> 
+				<div class="drop"></div>
+				<div class="drop"></div>
+				<!-- <div class="drop"></div> -->
+			</div>
+
+			<div class="drop_labels">
+				<div class="label_name">Art Deco</div>
+				<div class="label_name">Art Nouveau</div>
+				<div class="label_name">Other</div>
+				<div class="label_name">n/a</div>
+
+				<div class="label_time">
+
+					<div class="years">
+						<p>1895</p>
+						<p>1896</p>
+						<p>1898</p>
+						<p>1899</p>
+						<p>1910</p>
+						<p>1929</p>
+						<!-- <p>~1400 c.e.</p> -->
+					</div>
+
+					<div class="tick_marks">
+						<div></div>
+						<div></div>
+						<div></div>
+						<div></div>
+						<div></div>
+						<div></div>
+					</div>
+
+				</div> <!-- end of label_time -->
+
+			<div class="year_description">
+
+				<form class="year_desc_cell">
+					<textarea class="year_desc_cell input">Enter your caption here.</textarea>
+				</form>
+
+				<form class="year_desc_cell">
+					<textarea class="year_desc_cell input">Enter your caption here.</textarea>
+				</form>
+
+				<form class="year_desc_cell">
+					<textarea class="year_desc_cell input">Enter your caption here.</textarea>
+				</form>
+
+				<form class="year_desc_cell">
+					<textarea class="year_desc_cell input">Enter your caption here.</textarea>
+				</form>
+
+				<form class="year_desc_cell">
+					<textarea class="year_desc_cell input">Enter your caption here.</textarea>
+				</form>
+
+				<form class="year_desc_cell">
+					<textarea class="year_desc_cell input">Enter your caption here.</textarea>
+				</form>
+
+<!--				<form class="year_desc_cell">
+					<textarea class="year_desc_cell input">Enter your caption here.</textarea>
+				</form>
+
+ 				<input type="text" class="year_desc_cell" placeholder="Hatshepsut was the first female Pharoah, ruling from 1560 bc until 1500 bc. She often blended male and female gender roles in her portrayals.">
+					
+				<input type="text" class="year_desc_cell" placeholder="Enheduana is the first credited author in the ancient writing cultures. Her poetry is recorded incuneiform.">
+					
+
+				<input type="text" class="year_desc_cell" placeholder="Bronze Script">
+					
+
+				<input type="text" class="year_desc_cell" placeholder="Li Shu">
+					
+
+				<input type="text" class="year_desc_cell" placeholder="Running Script">
+					
+
+				<input type="text" class="year_desc_cell" placeholder="Grass Script">
+					
+
+				<input type="text" class="year_desc_cell" placeholder="Regular Script"> -->
+					
+
+			</div>
+
+			</div> <!-- end of drop_labels -->
+
+		</div> <!-- end of container -->
+
+
+		<div class="zoom_overlay"> <!-- image lightbox (magnification) mode elements -->
+
+			<div class="zoom_container">
+				<div class="zoom_image"></div> <!-- files for zoomed images: edit in script.js file (lines: 19-50) -->
+				<p class="description"></p> <!-- captions for zoomed images: edit text in script.js file (lines: 19 to 50) -->
+			</div>
+
+			<div class="close_btn"></div> <!-- close button -->
+
+		</div> <!-- end of zoom_overlay -->
+
+	</body>
+
+</html>
